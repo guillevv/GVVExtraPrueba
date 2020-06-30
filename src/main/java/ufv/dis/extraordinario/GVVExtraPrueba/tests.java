@@ -38,10 +38,4 @@ public class tests {
 	}
 	
 	
-	@Test
-	public void AddTweet()
-	{
-		tweets.addTweet(tweet);
-		assertEquals(1, tweets.getTweetsSize());
-	}
 }
